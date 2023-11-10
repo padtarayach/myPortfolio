@@ -172,7 +172,7 @@ function App() {
             </div>
 
             {/* card  สีขาวอันแรก */}
-            <div className="bg-white p-10 gap-7 rounded-[30px] min-h-[400px] w-[90%] mx-auto shadow-2xl flex flex-col md:flex-row justify-center">
+            <div className="bg-white p-10 gap-7 rounded-[30px] min-h-[400px] w-[90%] mx-auto shadow-2xl flex flex-col md:flex-row justify-center mb-6">
               {/* ภาพ Colmar */}
               <div className="w-full">
                 <img
