@@ -216,6 +216,52 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* card  สีขาวสอง */}
+            <div className="bg-white p-10 gap-7 rounded-[30px] min-h-[400px] w-[90%] mx-auto shadow-2xl flex flex-col md:flex-row justify-center">
+              {/* ภาพ Colmar */}
+              <div className="w-full">
+                <img
+                  src="./KeepFit.png"
+                  className="w-full rounded-[10px] shadow-2xl"
+                />
+              </div>
+
+              {/* div ครอบข้อความทั้งหมด */}
+
+              <div className="flex flex-col justify-center gap-2 md:gap-4">
+                {/* หัวข้อ */}
+                <div className="w-full text-primary font-bold text-xl text-center md:text-2xl">
+                  KeepFit
+                </div>
+                {/* รายละเอียดโปรเจค */}
+                <div className="w-full text-primary mx-auto ">
+                  Tracking exercise web application, Using React, NodeJS and GitHub
+                  pages. Final Project Generation Thailand 
+                </div>
+
+                {/* ปุ่มกดไป Git and Demo */}
+                <div className="flex justify-end gap-4">
+                  <a
+                    className="text-primary font-semibold text-[15px] bg-secondary rounded-full px-4 p-1 border-primary border-2 flex items-center hover:bg-secondary-focus hover:scale-105 duration-150"
+                    href="https://github.com/padtarayach/keepfit-react"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    Git Repo <AiFillGithub className="ms-1" />
+                  </a>
+                  <a
+                    className="text-primary font-semibold text-[15px] bg-secondary rounded-full px-4 p-1 border-primary border-2 flex items-center hover:bg-secondary-focus hover:scale-105 duration-150"
+                    href="https://keepfit-demo.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Demo <HiExternalLink className="ms-1" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </section>
 
           <section id="experience">
